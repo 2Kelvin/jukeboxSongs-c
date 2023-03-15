@@ -1,3 +1,5 @@
+# jukeboxSongs-c
+
 You can read individual song characters like so: (Here I'm accessing the 3rd song's character 'l')
 
 ```c
@@ -22,4 +24,4 @@ i.e. (syntax)
 strstr("string", "searchWord");
 ```
 
-# jukeboxSongs-c
+
