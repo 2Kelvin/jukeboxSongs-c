@@ -15,12 +15,17 @@ void findSong(char searchTerm[])
     int i;
     for (i = 0; i < 5; i++)
     {
-        if (strstr(jukeboxSongs, searchTerm))
+        if (strstr(jukeboxSongs[i], searchTerm))
             printf("Song %i: '%s'\n", i, jukeboxSongs[i]);
     }
 }
 
 int main()
 {
+    char searchTerm[80];
+    printf("Search for: ");
+    fgets(searchTerm, 80, stdin);
+    findSong(searchTerm);
+    
     return 0;
 }
