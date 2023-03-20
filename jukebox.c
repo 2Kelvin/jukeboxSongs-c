@@ -7,7 +7,7 @@ char jukeboxSongs[][80] = {
     "Paradise - Coldplay",
     "All the little lights - Passenger",
     "Move on - Mike Posner",
-    "Brick over brick - Paramore",
+    "Brick by boring brick - Paramore",
     "Renegades - X Ambassadors",
 };
 
