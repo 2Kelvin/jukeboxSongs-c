@@ -24,4 +24,12 @@ i.e. (syntax)
 strstr("string", "searchWord");
 ```
 
+Basic syntax of defining/ initializing an array of strings(arrays) in C:
 
+```c
+char myArray[][] = {
+    //the strings go in here separated by a comma ',' per line
+};
+```
+
+The first `[]` is for the main (outer) array, while the second `[]` is for the characters of each string in the array
